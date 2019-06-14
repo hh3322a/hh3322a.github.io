@@ -31,12 +31,12 @@ jQuery(function () {
       }
   } else {
     if (x >= 20 && x <= 23) {
-      if ((m - mm) > 60000) {
+      if ((m - mm) > 600000) {
         get = true
       }
     } else {
       if (x >= 0 && x <= 4) {
-        if ((m - mm) > 60000) {
+        if ((m - mm) > 600000) {
           get = true
         }
       }
